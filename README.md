@@ -29,7 +29,7 @@ pip install matplotlib
 ### Installation
 
 Install this package with python package installer **pip**:
-
+**I'm having problems with my PyPI account and waiting for their support to publish this officialy**
 ```
 pip install KnowYourPlace
 ```
