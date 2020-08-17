@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import imutils
 import pytesseract
-import utils
+from knowyourplates import utils
 from PIL import Image
 from typing import Callable
 
