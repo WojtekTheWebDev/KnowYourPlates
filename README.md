@@ -62,14 +62,6 @@ Call from the command line:
 ```
 python run.py --image ./example.jpg
 ```
-- Example image
-![Example image](https://github.com/SikoraWojciech/KnowYourPlates/blob/master/example/example.jpg "Example image")
-
-- License plate image after calling **license_plate_recognition**
-![Result image](https://github.com/SikoraWojciech/KnowYourPlates/blob/master/example/results/license_plate.jpg "Result image")
-
-- Result: **RK115AN**
-
 
 - Example image
 
