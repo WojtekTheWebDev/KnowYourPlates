@@ -1,4 +1,4 @@
-# Know your plates
+# KnowYourPlates
 
 Module that allows to recognize license plates from images basing on image processing algorithms.
 
