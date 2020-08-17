@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="KnowYourPlates",
-    version="0.1.0",
+    version="0.1.1",
     author="Wojciech Sikora",
     author_email="kontakt@sikorawojciech.pl",
     description="Module that allows to recognize license plates from images basing on image processing algorithms.",
