@@ -31,7 +31,7 @@ pip install matplotlib
 Install this package with python package installer **pip**:
 
 ```
-pip install know_your_plates
+pip install KnowYourPlace
 ```
 
 ### Usage
@@ -41,21 +41,39 @@ To recognize license plate from the image, import this package to the project an
 ```python
 # run.py
 import argparse
-from know_your_plates import alpr
+from knowyourplates import alpr
 
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,
                 help="Path to the image")
 args = vars(ap.parse_args())
 
-recognized_text = alpr.license_plate_recognition(args['image'])
+recognized_text = alpr.license_plate_recognition(
+    img_path=args['image'],
+    new_size=None,
+    blurring_method=alpr.bilateral_filter,
+    binarization_method=alpr.adaptive_threshold
+)
 print(recognized_text)
+
 ```
 Call from the command line:
 
 ```
 python run.py --image ./example.jpg
 ```
+
+- Example image
+
+
+![Example image](https://raw.githubusercontent.com/SikoraWojciech/KnowYourPlates/master/example/example.jpg "Example image")
+
+- Result license plate image
+
+
+![Result image](https://raw.githubusercontent.com/SikoraWojciech/KnowYourPlates/master/example/results/license_plate.jpg "Result image")
+
+- Result: **RK115AN**
 
 ## API
 
