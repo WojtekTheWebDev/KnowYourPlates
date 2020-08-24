@@ -15,7 +15,7 @@ Module uses several python packages:
 * Pillow - Python Image Library
 * Matplotlib - Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms
 
-Be sure to have them installed before using **know_your_plates** package:
+Be sure to have them installed before using **KnowYourPlates** package:
 
 ```
 pip install opencv-contrib-python
@@ -359,4 +359,4 @@ Bilateral filter: https://docs.opencv.org/2.4/modules/imgproc/doc/filtering.html
 
 ## License
 
-**know_your_plates** is released under the [MIT License](https://opensource.org/licenses/MIT).
+**KnowYourPlates** is released under the [MIT License](https://opensource.org/licenses/MIT).
