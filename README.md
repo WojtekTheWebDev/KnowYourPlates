@@ -62,8 +62,7 @@ Call from the command line:
 python run.py --image ./example.jpg
 ```
 
-- Example image
-
+- Example image from [OpenALPR Benchmark](https://github.com/openalpr/benchmarks/tree/master/endtoend/eu)
 
 ![Example image](https://raw.githubusercontent.com/SikoraWojciech/KnowYourPlates/master/example/example.jpg "Example image")
 
